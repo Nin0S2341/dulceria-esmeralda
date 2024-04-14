@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.encabezado{
+background-color: rgb(233, 19, 19);
+color:whitesmoke;
+font-family: "Satisfy", cursive;
+font-size: 40px;
+text-align: center;
+width: 96%;
+
+padding: 20px;
+box-shadow: 10px 7px 10px gray;
+margin: 10px;
+gap: flex;
+}
+
+.barraOps{
+    background-color: rgb(233, 73, 19);
+
+padding: 10px;
+box-shadow: 10px 7px 10px gray;
+margin: 10px;
+width: 97.5%;
+gap: flex;
+
+}
+
+a{
+    background-color: rgb(233, 73, 19);
+    color:whitesmoke;
+    font-family: "Satisfy", cursive;
+    font-size: 15px;
+    text-align: left;
+    gap: flex;
+    text-decoration: none;
+    
+}
+a:hover{
+   
+    box-shadow: 5px 5px 5px 2px rgb(203, 173, 19);
+    
+}
+
+.barraBus{
+   width: 100px;
+   height: 500px;
+   color: rgb(79, 16, 249);
+   border: solid blue;
+   overflow: hidden;
+   
+
+}
+
+.productos{
+    display: grid;
+    margin-left: 10px;
+    background-color: white;
+    width: 80%;
+    height: 540px;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.producto{
+    background-color:white;
+    font-family: "Satisfy", cursive;
+    font-size: 40px;
+    text-align: center;
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+    margin-top: 30px;
+    border: 1px  solid ;
+    gap: flex;
+}
+.producto:hover{
+    box-shadow: 10px 7px 10px gray;
+}
+.pantallaGeneral{
+    border: 2px solid blue;
+    width: 100%;
+    grid-template-columns: 3fr 3fr;
+
+}
