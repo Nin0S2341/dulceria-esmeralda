@@ -20,8 +20,8 @@
     background: var(--input-bg);
     border-radius: 4px;
     position: absolute;
-    top: 25%;
-    left: 82%;
+    top: 1%;
+    left: 10%;
   }
   
   .form label {
